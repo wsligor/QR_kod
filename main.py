@@ -682,7 +682,7 @@ def convert_pdf2img(input_file: str, pages: Tuple = None):
 
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
+
     tiled_size = (800, 1120)
     tiled_img = ImagePIL.new('RGB', tiled_size, (250, 250, 250))
 
